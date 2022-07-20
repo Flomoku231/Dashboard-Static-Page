@@ -1,0 +1,105 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.CourseCard__Container{
+    cursor: pointer;
+    border-radius: 10px;
+    width: 28%;
+    height: 180px;
+    padding: 10px; 
+    padding-left: 20px;
+    gap: 8px;
+    display: flex;
+    flex-direction: column;
+    border:none;
+    box-shadow: 10px 15px 15px rgba(0, 0, 0, 0.11);
+}
+.Facilitator-info{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-left: 10px;
+}
+#Card_line{
+    width: 95%;
+    opacity: 0.2;
+    margin: 10px;
+}
+.Progress>h2{
+    font-family: "Calibri";
+    font-size: 13px;
+    margin-left: 10px;
+}
+.Progress>h3{
+    font-family: "Calibri";
+    font-size: 12px;
+}
+progress{
+    color: red;
+    background-color: black;
+    border-radius: 10px;
+}
+#Progress-display{
+    width: 100px;
+    height: 6px;
+    border-radius: 30px;
+    background-color: red;
+}
+.Facilitator-info>p{
+    opacity: 0.8;
+    margin-top: 6px;
+    font-family: "Calibri";
+}
+.Facilitator-info>h3{
+    margin-top: 6px;
+    font-size: 16px;
+    font-family: "Calibri";
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.header-text{
+    margin-top: 15px;
+    gap: 5px;
+}
+.header-text>h2{
+    font-family: "Calibri";
+    font-size: 19px;
+}
+#Course-level{
+    font-family: "Calibri";
+    color: rgba(0, 128, 0, 0.736);
+    font-size: 16px;
+}
+.Progress{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 4px;
+    margin-left: 4px;
+    gap: 20px;
+    align-items: center;
+}
+#Course-logo{
+    width:65px;
+    height: 65px;
+    margin-left: 9px;
+    border-radius: 15px;
+}
+
+#Facilitator_account{
+    width: 28px;
+    padding: 2px;
+    height: 28px;
+    border-radius: 50%;
+    outline: solid 1px rgb(2, 2, 123);
+}
+#Trainee-account{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+
+}

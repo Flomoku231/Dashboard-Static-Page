@@ -1,0 +1,104 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.Course__List{
+    margin: 20px;
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.menuImage{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    gap: 20px;
+    float: right;
+    opacity: 0.6;
+    margin-top: 12px;
+    margin-right: 20px;
+}
+.menuImage>img{
+    width: 30px;
+    height: 30px;
+}
+.coursePackage{
+    display: flex;
+    flex: 1;
+    gap: 30px;
+    flex-direction: row;
+}
+.coursePackage>h2{
+    font-size: 30px;
+    font-family: "Calibri";
+}
+#Course__package-button{
+    margin-top: 4px;
+    background-color: var(--aside-head-color);
+    font-size: 16px;
+    font-family: "Calibri";
+    border: 0px;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    width: 100px;
+    height: 35px;
+}
+.Course__List-head{
+    gap: 10px;
+    display: flex;
+    flex-direction: row; 
+}
+.Header-courses{
+    display: flex;
+    align-items: center;
+    flex-direction: row;  
+    margin-top: 10px;
+}
+#Header-coursesImage{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+.Header-courses>p{
+    font-size: 16px;
+    font-family: "Calibri";
+    margin-left: 10px;
+    opacity: 0.5;
+}
+.CourseCard{
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    overflow-x: scroll;
+    height: 220px;
+    animation: AnimateCard 2s forwards;
+    animation-delay: 0s;
+}
+.CourseCard::-webkit-scrollbar{
+    height: 5px;
+}
+.CourseCard::-webkit-scrollbar-thumb{
+    background-color: gray;
+    width: 1px;
+    border-radius: 30px;
+}
+.CourseCard::-webkit-scrollbar-track{
+    background-color: var(--aside-head-color);
+    width: 5px;
+    border-radius: 30px;
+}
+
+@keyframes AnimateCard {
+    from{
+        transform: translateY(-100%);
+
+    }
+    to {
+        transform: translateX(0%);
+    }
+}

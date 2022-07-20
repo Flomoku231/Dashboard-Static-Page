@@ -1,0 +1,57 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+.trainercard{
+    width: 100%;
+    height: 60px;
+    border: 0px;
+    cursor: pointer;
+    outline: 0px;
+    text-align: center;
+    align-items: center;
+    padding-left: 20px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+}
+.trainercard:hover{
+    background-color: rgba(128, 128, 128, 0.109);
+}
+.trainercard:focus{
+    background-color:rgba(0, 255, 255, 0.625);
+}
+#footer_Name{
+    font-size: 16px;
+    font-family: "Calibri";
+
+}
+#footer__messageIcon{
+    width: 25px;
+    height: 25px;
+    position: relative;
+    margin-right: 30px;
+}
+.footer__content{
+    display: flex;
+    width: 90%;
+    flex-direction: column !important;
+    text-align: left;
+    margin-left: 15px;
+}
+
+#footer_position{
+    opacity: 0.6;
+    font-size: 14px;
+    margin-top: 6px;
+    justify-content: left;
+    font-family: "Calibri";
+}
+#footer_profile{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}

@@ -1,0 +1,44 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.Left__Menu{
+    width: 100%;
+    height: 300px;
+    border-bottom: solid 1px rgba(128, 128, 128, 0.39);
+}
+ul{
+    justify-content: space-between;
+}
+li{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 40px;
+    margin-top: 25px;
+    margin-left: 20px;
+    font-family: "Calibri";
+    font-size: 16px;
+    opacity: 0.8;
+}
+li>img{
+    width: 20px;
+    height: 20px;
+    margin-right:10px;
+}
+#Article_button{
+    
+    width: 30px;
+    height: 20px;
+    font-size: 15px;
+    border: 0px;
+    font-family: "Calibri";
+    color: gray;
+    border-radius: 20px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    position: relative;
+    left: 110px;
+    background-color: rgba(81, 245, 245, 0.274);
+}
